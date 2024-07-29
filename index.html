@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- web site title  -->
+    <title>PRICE SELLING BILL</title>
+    
+    <!-- favicon icon  -->
+    <!-- <link rel="shortcut icon" href="image/" type="image/x-icon"> -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- bootsrap v5.3.3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- custome css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- responsive media query -->
+    <link rel="stylesheet" href="css/mediaquery.css" />
+
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="sticky">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="image/logo.webp" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item menu_item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item menu_item">
+                <a class="nav-link " aria-current="page" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item menu_item">
+                <a class="nav-link " aria-current="page" href="#">SHOP</a>
+              </li>
+              <li class="nav-item menu_item">
+                <a class="nav-link " aria-current="page" href="#">PRODUCT</a>
+              </li>
+              <li class="nav-item menu_item">
+                <a class="nav-link " aria-current="page" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header section end -->
+
+    <!-- body section start   -->
+      <section class="billing">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8 col-12">
+              <div class="product_sec">
+                <div class="row">
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_1.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri1">1000</h5>
+                        </div>
+                        <p class="card-text">Frame Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check1" class="check" onchange="check(); changdat(1); "/>
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_2.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri2">1300</h5>
+                        </div>
+                        <p class="card-text">Syrus Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check2" class="check" onchange="check(); changdat(2);"/>
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_3.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri3">800</h5>
+                        </div>
+                        <p class="card-text">Wooden Tool</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check3" class="check" onchange="check(); changdat(3); "/>
+                          <!-- <input type="checkbox" id="check1" class="check" onchange="check()" /> -->
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_4.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri4">1500</h5>
+                        </div>
+                        <p class="card-text">Hook Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox"id="check4" class="check" onchange="check(); changdat(4); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_5.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri5">300</h5>
+                        </div>
+                        <p class="card-text">Lather Men’s Canvas</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check5" class="check" onchange="check(); changdat(5); "/>
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_6.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri6">350</h5>
+                        </div>
+                        <p class="card-text">Short Men’s Canvas</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check6" class="check" onchange="check(); changdat(6); "/>
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_7.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri7">1250</h5>
+                        </div>
+                        <p class="card-text">Lather Men’s Shoe</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check7" class="check" onchange="check(); changdat(7); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_8.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri8">1000</h5>
+                        </div>
+                        <p class="card-text">Men’s Canvas</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check8" class="check" onchange="check(); changdat(8); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_9.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri9">850</h5>
+                        </div>
+                        <p class="card-text">Legacy Leather Sneaker</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check9" class="check" onchange="check(); changdat(9); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_10.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri10">800</h5>
+                        </div>
+                        <p class="card-text">Lather Men’s Canvas</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check10" class="check" onchange="check(); changdat(10); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_11.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri11">600</h5>
+                        </div>
+                        <p class="card-text">Stick Wastebasket</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check11" class="check" onchange="check(); changdat(11); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_12.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri12">1355</h5>
+                        </div>
+                        <p class="card-text">Circle Hand Paint</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check12" class="check" onchange="check(); changdat(12); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_13.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri13">1200</h5>
+                        </div>
+                        <p class="card-text">Handmade Cloth</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check13" class="check" onchange="check(); changdat(13); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_14.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri14">1100</h5>
+                        </div>
+                        <p class="card-text">Wooden Modern Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check14" class="check" onchange="check(); changdat(14); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_15.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri15">800</h5>
+                        </div>
+                        <p class="card-text">Hanging Umbrella</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check15" class="check" onchange="check(); changdat(15); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_16.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri16">700</h5>
+                        </div>
+                        <p class="card-text">Wooden Elephant</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check16" class="check" onchange="check(); changdat(16); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_17.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri17">850</h5>
+                        </div>
+                        <p class="card-text">Camel Double Pices</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check17" class="check" onchange="check(); changdat(17); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512">
+                              <path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_18.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri18">950</h5>
+                        </div>
+                        <p class="card-text">Wooden Horse</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check18" class="check" onchange="check(); changdat(18); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_19.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri19">1150</h5>
+                        </div>
+                        <p class="card-text">Wooden Bird</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check19" class="check" onchange="check(); changdat(19); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_20.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri20">1250</h5>
+                        </div>
+                        <p class="card-text">Handmade Bag</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check20" class="check" onchange="check(); changdat(20); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_21.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri21">1750</h5>
+                        </div>
+                        <p class="card-text">Fish Decoration</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check21" class="check" onchange="check(); changdat(21); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_22.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri22">2100</h5>
+                        </div>
+                        <p class="card-text">Beautiful Basket</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check22" class="check" onchange="check(); changdat(22); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_23.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri23">1900</h5>
+                        </div>
+                        <p class="card-text">Flower Tub</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check23" class="check" onchange="check(); changdat(23); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_24.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri24">500</h5>
+                        </div>
+                        <p class="card-text">Camel Bird Decoration</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check24" class="check" onchange="check(); changdat(24); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_25.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri25">900</h5>
+                        </div>
+                        <p class="card-text">Tirado Black Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check25" class="check" onchange="check(); changdat(25); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_26.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri26">1700</h5>
+                        </div>
+                        <p class="card-text">Placido Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check26" class="check" onchange="check(); changdat(26); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_27.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri27">1200</h5>
+                        </div>
+                        <p class="card-text">Isadora Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check27" class="check" onchange="check(); changdat(27); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="card my-3">
+                      <img src="image/pro_28.webp" class="card-img-top pro_img" alt="">
+                      <div class="card-body ">
+                        <div class="d-flex">
+                          <span class="ruppee">₹</span>
+                          <h5 class="card-title" id="pri28">1800</h5>
+                        </div>
+                        <p class="card-text">Tacoma Chair</p>
+                        <label class="get_btn">
+                          <input type="checkbox" id="check28" class="check" onchange="check(); changdat(28); " />
+                          <div class="checkmark">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon No"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                              fill-rule="evenodd"
+                             d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                            <p class="No name">Add to cart</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon Yes" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            <p class="Yes name">Remove cart</p>
+                          </div>
+                        </label>                        
+                      </div>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="billing_sec sticky1">
+                <div class="d-flex justify-content-between mb-3">
+                  <input type="text" class="form-control" id="entercode" placeholder="Enter cupon code" value="">
+                  <button type="submit" class="btn btn-primary ms-2" id="submiit" onclick="submit()">Submit </button>
+                </div>
+                <div class="total_item d-flex justify-content-between mb-2">
+                  <label for="" >Total Items :</label>
+                  <span class="" id="total_item">0</span>
+                </div>             
+                <div class="total_amt d-flex justify-content-between mb-2">
+                  <label for="">Total Amount :</label>
+                  <span class="" id="amount" class="listamount">0</span>
+                </div>             
+                <div class="gst_cnt d-flex justify-content-between mb-2">
+                  <label for="">GST(18%) :</label>
+                  <span class="" id="gst">0%</span>
+                </div>   
+                <hr width="100%" >
+                <div class="amt d-flex justify-content-between mb-2">
+                  <label for="">GST+Amount :</label>
+                  <span class="" id="gst_amt">0</span>
+                </div>          
+                <div class="disc d-flex justify-content-between mb-2">
+                  <label for="">Discount :</label>
+                  <span class="" id="discount">0</span>
+                </div>          
+                <hr width="100%">
+                <div class="final_amt d-flex justify-content-between">
+                  <label for="">Payabale Amount :</label>
+                  <span class="" id="pay_amt">0</span>
+                </div>
+                <button type="button" class="cupon_btn" data-bs-toggle="popover" data-bs-title="FLAT 50% OFF" data-bs-content="FLAT#50"><i class="fa-solid fa-gift me-2"></i>GET YOUR CODE</button>
+                
+                <button type="button" class="cupon_btn" data-bs-toggle="popover" data-bs-title="FLAT 30% OFF" data-bs-content="FLAT#30"><i class="fa-solid fa-gift me-2"></i>GET YOUR CODE</button>
+                <button type="button" class="cupon_btn" data-bs-toggle="popover" data-bs-title="FLAT 20% OFF" data-bs-content="FLAT#20"><i class="fa-solid fa-gift me-2"></i>GET YOUR CODE</button>
+              </div>         
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- body section end   -->
+      
+
+    <!-- bootsrap v5.3.3 -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/script.js"></script>
+  </body>
+</html>
